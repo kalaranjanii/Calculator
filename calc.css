@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;;
+    align-items: center;;
+    flex-direction: column;;
+    width: 90vw;
+    height: 90vh;
+    background-color: #ffdead5d;
+}
+.calculator{
+    border: 1px solid #ffdead;
+    background-color: #ffdead;
+    border-radius: 10px;
+}
+.number{
+    border: 1px solid rgba(128, 128, 128, 0.378);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.249);
+}
+.number:hover{
+    background-color: rgba(128, 128, 128, 0.378);
+    box-shadow: 5px 5px 5px;
+}
+.operator{
+    border: 1px solid rgba(128, 128, 128, 0.378);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.249);    
+}
+.operator:hover{
+    background-color: rgba(128, 128, 128, 0.378);
+    box-shadow: 5px 5px 5px;
+}
+.decimal{
+    border: 1px solid rgba(128, 128, 128, 0.378);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.249);    
+}
+.decimal:hover{
+    background-color: rgba(128, 128, 128, 0.378);
+    box-shadow: 5px 5px 5px;
+}
+.equal{
+    border: 1px solid rgba(128, 128, 128, 0.378);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.249);    
+}
+.equal:hover{
+    background-color: rgba(128, 128, 128, 0.378);
+    box-shadow: 5px 5px 5px;
+}
+.clear{
+    border: 1px solid rgba(128, 128, 128, 0.378);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.249);   
+}
+.clear:hover{
+    background-color: rgba(128, 128, 128, 0.378);
+    box-shadow: 5px 5px 5px;
+}
+.row_one{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.screen{
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.249);
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgba(128, 128, 128, 0.249);
+}
+.previous{
+    font-size: 25px;
+}
+.current{
+    font-size: 25px;
+}

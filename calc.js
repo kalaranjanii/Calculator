@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',function(){
     number = document.querySelectorAll('.number');
     operator = document.querySelectorAll('.operator');
     decimal = document.querySelector('.decimal');
-    equal = document.querySelector('.equal');
+    equal = document.querySelector('.equal');           
     previous_screen = document.querySelector('.previous');
     current_screen = document.querySelector('.current');
 
